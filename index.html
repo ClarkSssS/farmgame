@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<main>
+    <form action="">
+        <fieldset>
+            <legend><b>How To Play</b></legend>
+            Welcome to FarmVille!<br>
+            For starters, you have a lot of options to plant inside the field,
+            the<br> field is the grid where you can drag and drop the plants.
+            
+            
+            
+        </fieldset>
+    </form>
+</main>
+<br>
+
+
+    
+    
+    <div id="farm">
+        <div id="field" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <!-- Grid cells will be dynamically added here -->
+        </div>
+
+        <!--<div id="currency"><b>Currency: </b><span id="money">0</span></div> -->
+        <!--<button onclick="sellCrops()"><b>Sell</b></button> -->
+
+        <div class="crop1" id="crop1" draggable="true"></div>
+        <div class="crop2" id="crop2" draggable="true"></div>
+        <div class="crop3" id="crop3" draggable="true"></div>
+        <div class="crop4" id="crop4" draggable="true"></div>
+        <div class="crop5" id="crop5" draggable="true"></div>
+        <div class="crop6" id="crop6" draggable="true"></div>
+        <div class="crop7" id="crop7" draggable="true"></div>
+        <div class="crop8" id="crop8" draggable="true"></div>
+        <div class="crop9" id="crop9" draggable="true"></div>
+        <div class="crop10" id="crop10" draggable="true"></div>
+        <!-- Add more crops as needed -->
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+
+
+</html>
